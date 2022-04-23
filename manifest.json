@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "OSMAND Strava Heatmap",
+  "description": "A browser extension that simplifies getting the TMS imagery url for using the Strava Heatmap in OSMAND",
+  "version": "1",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "permissions": ["cookies", "clipboardWrite"],
+  "host_permissions": ["*://*.strava.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.strava.com/heatmap*"],
+      "js": ["browser-polyfill.min.js", "content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "homepage_url": "https://github.com/themasterr/osmand-strava-heatmap"
+}
