@@ -13,6 +13,8 @@ OSM Wiki: [Using the Strava Heatmap][2]
 
 ## Installation
 
+Until I get to publish on the app store, you can install manually the extenssion by downloading [osmand-strava-heatmap.crx][6]
+
 Available as a [Firefox Add-On][3] or [Chrome extension][4].
 The Chrome extension should also work in Microsoft Edge and other Chromium based browsers.
 
@@ -29,3 +31,4 @@ The Chrome extension should also work in Microsoft Edge and other Chromium based
 [3]: https://addons.mozilla.org/en-US/firefox/addon/osmand-strava-heatmap/
 [4]: https://chrome.google.com/webstore/detail/osmand-strava-heatmap/ID
 [5]: https://www.strava.com/heatmap
+[6]: https://github.com/TheMasterR/osmand-strava-heatmap/blob/main/osmand-strava-heatmap.crx
